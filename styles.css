@@ -1,0 +1,84 @@
+body {  
+    background: #1C1C1C;
+    background-size: 250% 250%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    height: 100%;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    line-height: 37px;
+}
+
+h1:hover {
+    transition: all 0.4s ease;
+}
+
+.links {
+    background: #212121;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #363636;
+    box-shadow: inset 5px 5px 10px #1c1c1c, inset -5px -5px 10px #2F2F2F;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.server-status {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+}
+
+/*.server-status online {
+    color: #00ff00;
+}
+
+.server-status offline {
+    color: #ff0000;
+}
+*/
+
+a:hover {
+    text-align: center;
+    outline: none;
+    border: 2px solid #363636;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* center vertically */
+    width: 100%; /* make width of element cover entire page */
+    flex: 1;
+}
